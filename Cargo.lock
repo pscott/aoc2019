@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 [[package]]
 name = "aoc-runner"
-version = "0.3.0"
+version = "0.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -30,7 +30,7 @@ dependencies = [
 name = "aoc2019"
 version = "0.1.0"
 dependencies = [
- "aoc-runner 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "aoc-runner 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "aoc-runner-derive 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -101,7 +101,7 @@ version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum aoc-runner 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d21ef9204ad206a5a3e918e9920da04e1118ad91ce4f23570be964b9d6b9dfcb"
+"checksum aoc-runner 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e34a27977323a869e1c2c1d795dd25611caafeec0d121f57bb0b7630a639cd30"
 "checksum aoc-runner-derive 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ba8b944269d3fee645d281b1335e1797044db497bb02d0098cc3fdb8900069cc"
 "checksum aoc-runner-internal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "274b0ba7f3669a45ec0aaacf94eb032a749de880ab776091576cca94037c9982"
 "checksum itoa 0.4.4 (registry+https://github.com/rust-lang/crates.io-index)" = "501266b7edd0174f8530248f87f99c88fbe60ca4ef3dd486835b8d8d53136f7f"
