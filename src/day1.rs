@@ -15,18 +15,18 @@ fn part1(modules: &[u64]) -> u64 {
 }
 
 fn total_fuel(mut mass: u64) -> u64 {
-	let mut total_fuel = 0;
-	while mass > 0 {
-		let fuel = compute_fuel(mass);
-		total_fuel += fuel;
-		mass = fuel;
-	}
-	total_fuel
+    let mut total_fuel = 0;
+    while mass > 0 {
+        let fuel = compute_fuel(mass);
+        total_fuel += fuel;
+        mass = fuel;
+    }
+    total_fuel
 }
 
 #[aoc(day1, part2)]
 fn part2(modules: &[u64]) -> u64 {
-	modules.iter().fold(0u64, |sum, i| sum + total_fuel(*i))
+    modules.iter().fold(0u64, |sum, i| sum + total_fuel(*i))
 }
 
 // #[cfg(test)]
