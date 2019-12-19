@@ -47,8 +47,6 @@ fn computer(program: &mut [u64]) -> u64 {
 
 #[aoc(day2, part2)]
 fn brute_force(init_state: &[u64]) -> u64 {
-    let mut program = init_state.to_vec();
-
     for i in 0..99 {
         for j in 0..99 {
             let mut program = init_state.to_vec();
